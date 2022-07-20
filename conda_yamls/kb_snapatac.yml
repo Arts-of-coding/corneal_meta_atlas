@@ -1,0 +1,23 @@
+name: kb_snapatac
+channels:
+  - r
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=3.5.1
+  - rstudio
+  - bioconductor-biocinstaller>=1.30
+  - r-devtools>=2
+  - r-doSNOW=1.0.18
+  - python=2.7
+  - r-mgcv=1.8-24
+  - r-umap=0.2.0.0
+  - r-Seurat=3.0.0
+  - bioconda::bioconductor-Rhdf5lib=1.4.3
+  - bioconda::bioconductor-rhdf5=2.26.2
+  - r-plot3D=1.3
+  - bioconda::bioconductor-BiocParallel
+  - pip
+  - pip:
+    - setuptools
